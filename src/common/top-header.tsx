@@ -1,14 +1,12 @@
-import React from "react";
-import { BsTwitterX } from "react-icons/bs";
-import { FaInstagram } from "react-icons/fa6";
-import { FiFacebook, FiLinkedin, FiPhone } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { BsTwitterX } from 'react-icons/bs';
+import { FaInstagram } from 'react-icons/fa6';
+import { FiFacebook, FiLinkedin, FiPhone } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
-const MainTopHeader: React.FC = () => {
+export const TopHeader: React.FC = () => {
   return (
-    <>
-      {/* Main Top Header */}
-       <header>
+    <header>
       <div className="flex flex-row justify-between items-center mt-2">
         {/* Contact */}
         <div className="flex flex-row gap-1">
@@ -22,7 +20,7 @@ const MainTopHeader: React.FC = () => {
           </div>
           <div>
             <p className="font-poppins text-sm font-semibold ">
-              {"+91 7209563603"}
+              {'+91 7209563603'}
             </p>
           </div>
         </div>
@@ -74,9 +72,6 @@ const MainTopHeader: React.FC = () => {
           </Link>
         </div>
       </div>
-      </header>
-    </>
+    </header>
   );
 };
-
-export default MainTopHeader;
