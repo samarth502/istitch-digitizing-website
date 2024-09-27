@@ -3,7 +3,7 @@ import logo from '../assets/CompanyLogo/istitch-logo.png';
 
 export const MainFooter: React.FC = () => {
   return (
-    <footer className="bg-[#1F325C] relative  py-11 px-4 ">
+    <footer className="bg-[#1F325C] relative  py-11 px-4 container">
       <div className="bg-white h-[80px] w-[168px] mb-6 flex justify-center items-center">
         <img src={logo} alt="logo" className="" />
       </div>

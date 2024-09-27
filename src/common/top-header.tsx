@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export const TopHeader: React.FC = () => {
   return (
-    <header>
+    <header className='px-4 py-3 container bg-[#F4F4F4]'>
       <div className="flex flex-row justify-between items-center mt-2">
         {/* Contact */}
         <div className="flex flex-row gap-1">
@@ -37,7 +37,7 @@ export const TopHeader: React.FC = () => {
               color="white"
             />
           </Link>
-          <Link
+          <Link 
             to="https://twitter.com/adhipatech"
             rel="noopener noreferrer"
             target="_blank"
