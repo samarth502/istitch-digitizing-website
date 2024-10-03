@@ -1,13 +1,21 @@
 import React from "react"
-import { Banner } from "./components/Banner"
-// import { banner } from "./components/banner"
+import { Banner } from "./components/banner"
+import { OurServices } from "./components/our-services"
+import { Featue } from "./components/fetaure"
+import WhyChooesUs from "./components/why-choose-us"
+import { OurDesign } from "./components/our-design"
 
 export const Home:React.FC = () =>{
 
     return (
        <>
        <Banner/>
+       <OurServices/>
+       <Featue/>
+       <WhyChooesUs/>
+       <OurDesign/>
+       
        </>
-    )
+    )   
 
 }
