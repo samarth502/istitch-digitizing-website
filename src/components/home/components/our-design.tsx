@@ -37,7 +37,9 @@ export const OurDesign: React.FC = () => {
 
   return (
     <div className="relative bg-[#F4F4F4]">
-      <h1 className="text-4xl py-10 font-semibold  text-center">Our Design</h1>
+      <h1 className="text-4xl py-10 font-semibold  text-center ">Our Design</h1>
+      <h2 className="text-xl my-5 font-semibold  text-center absolute right-5 top-20">View All</h2>
+
 
       {/* Left Scroll Button */}
       <button
@@ -49,7 +51,7 @@ export const OurDesign: React.FC = () => {
 
       {/* Scrollable Container */}
       <div className="flex justify-center">
-        <div className=" flex-shrink-0 md:my-5 lg:px-3 m-auto w-[345px] h-[292px]">
+        <div className=" flex-shrink-0 md:my-5 lg:px-3 m-auto w-[345px] h-[292px] mt-6">
          <img className="w-full h-full" src="https://s3-alpha-sig.figma.com/img/3971/d9bd/12dc8fc7a9d63325bf4192229fc52ce5?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B-de6C9AzZsiYJhhoSdyHF6cDQdWRovS3sGnyqGUB0Y3Rqdk0IiovFxHpHEm8rwWOvu4vfqOMJgkwRj~UAJ1Iq7JKvSEB~Ph~24ksF7kOHEp6slsYcMbMwaMToCG0uEu44bb6Fw83jzJj06wJ2DjXGobYKXulWWfzqmR3zKyb~f721tiOLclLxlDoVTP3hghj9gyqxnBuOqZZ5RZWT0juI4uv8cl2mSAl81kB5Htf~-cLLbSyeKYsuR02lxfJxAaLpAcmV9glDLaz57aAtPdhelm8hE8e-BUIDAD55m8BnRWeEZ0QErjR8682xJLxClnRTtUbCyKtTdGDY1dZI4xZg__" alt="" />
         </div>
       </div>

@@ -34,7 +34,7 @@ export const Featue: React.FC = () => {
           </div>
         </div>
 
-        <div className=" m-auto w-[332px] h-[280px] mt-5">
+        <div className=" m-auto w-[350px] h-[280px] mt-5">
           <img
             className="w-full h-full"
             src="https://s3-alpha-sig.figma.com/img/a2cf/e861/ce8d7fc603acf80b28aa90b7fedcad87?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GQK2p0Efrj5uLUqoqFNfcrae6oYlKIRdWm77zYaxYv96yrir0-Kl9Igs5o8muaXvvlaMVgfGpHyM1LDtxT7AuUS4MYLpnVW3yAmCGEvyfePWMkrZhNPESavzZUT27Z0gJkd6DD3oF2CV6iFl64yvYdPxFE~gzmQVcUk5ZagFchrrOmXgyiYbllEwqMHRwx0-9azoj1-iwdnk-Iye5RfFb7YBTvvckfsIL9Lc5jdawC6ymRCAZrX1x0WVruecbx-NGCS08VK-e-2wCKSv9jb-6m1VRw4gh--eV3rMC9~GuhY07moK0bnOxdCCeDBPTp2tQoxh28MTYzWAAO2eI3QOgg__"

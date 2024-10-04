@@ -77,7 +77,7 @@ export const MainHeader: React.FC = () => {
                         </ul>
                       )}
                       <li>
-                        <a href="#">PRICING</a>
+                        <a href="/pricing">PRICING</a>
                       </li>
                       <li>
                         <a href="#">PORTFOLIO</a>
