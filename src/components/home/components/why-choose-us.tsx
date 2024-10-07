@@ -41,11 +41,11 @@ export const WhyChooesUs: React.FC = () => {
   return (
     <>
     <h1 className='text-3xl text-center font-extrabold pt-8 pb-5 '>Why Choose Us ? </h1>
-    <div className="grid grid-cols-2 gap-4 pt-5 px-2">
+    <div className="grid grid-cols-2 gap-4 pt-5 lg:w-[80%] xl:w-[60%] lg:m-auto gap-x-8 ">
       
       {boxesData.map((box) => (
         
-        <div key={box.id} className=" h-[262px] p-2 bg-[#102044] rounded-xl w-full flex flex-col gap-2 relative">
+        <div key={box.id} className=" h-[262px]  md:w-[416px] md:h-[336px]  p-2 bg-[#102044] rounded-xl  flex flex-col gap-2 relative">
             <h2 className="text-white text-[19px] text-center">{box.heading}</h2>
        
           

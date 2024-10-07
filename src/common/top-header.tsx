@@ -1,29 +1,68 @@
 import React from 'react';
 import { BsTwitterX } from 'react-icons/bs';
+import { CiMail } from 'react-icons/ci';
 import { FaInstagram } from 'react-icons/fa6';
 import { FiFacebook, FiLinkedin, FiPhone } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 export const TopHeader: React.FC = () => {
   return (
-    <header className='px-4 py-3 container bg-[#F4F4F4]'>
+    <header className=' py-4 px-4 xl:px-24 bg-[#F4F4F4] '>
       <div className="flex flex-row justify-between items-center mt-2">
+
+        
+
+        
         {/* Contact */}
-        <div className="flex flex-row gap-1">
-          <div className=" flex justify-center items-center">
+        <div className="flex flex-row gap-2 justify-center items-center">
+          {/* mail */}
+
+          <div className="md:flex flex-row justify-center items-center gap-2 hidden">
+  
+            <div className="w-[30px] h-[30px] text-sm bg-[#D0A038] rounded-full  flex justify-center items-center">
+              <CiMail 
+
+                className="w-[20px] h-[20px] duration-500 transition-transform hover:-translate-y-1"
+                color="white"
+              />
+            </div>
+
+            <div>
+            <p className="font-poppins text-sm font-semibold ">
+              {'+91 7209563603'}
+            </p>
+          </div>
+
+          </div>
+         
+
+
+
+          {/* Phone No */}
+          <div className=" flex flex-row justify-center items-center">
             <div className="w-[30px] h-[30px] text-sm bg-[#D0A038] rounded-full  flex justify-center items-center">
               <FiPhone
                 className="w-[20px] h-[20px] duration-500 transition-transform hover:-translate-y-1"
                 color="white"
               />
             </div>
-          </div>
-          <div>
+
+            <div>
             <p className="font-poppins text-sm font-semibold ">
               {'+91 7209563603'}
             </p>
           </div>
+          </div>
+          
+
+         
+
+
+          
         </div>
+
+
+
         {/* Social media icons */}
         <div className="flex flex-row gap-2 ">
           <Link

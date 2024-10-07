@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import icons
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export const OurDesign: React.FC = () => {
