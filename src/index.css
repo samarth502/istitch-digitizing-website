@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS for slick dots */
+.slick-dots li button {
+    width: 15px; /* Set width for all dots */
+    height: 15px; /* Set height for all dots */
+}
+
+.slick-dots li.slick-active button {
+    width: 15px; /* Active dot width */
+    height: 15px; /* Active dot height */
+    background-color: #4A5568; /* Change to your desired active dot color */
+}
+
+.slick-dots li button {
+    background-color: black; /* Inactive dot color */
+}
