@@ -33,7 +33,7 @@ const Pricing: React.FC = () => {
     <>
     <div className='bg-[#F4F4F4]'>
     <h1 className='text-3xl text-center font-semibold
-     py-4'>Pricing</h1>
+     pt-6 pb-3'>Pricing</h1>
     <div className="m-auto w-[83%] flex flex-row items-center  space-x-5 overflow-x-auto scrollbar-hide ">
         
       {data.map((box) => (
@@ -44,7 +44,7 @@ const Pricing: React.FC = () => {
           <p className="opacity-100 text-[16px] font-[400] leading-[20.83px] text-center px-3">
             {box.description} {/* Dynamic description */}
           </p>
-          <button className="bg-[#D0A038] text-white w-[155px] h-[37px] rounded-full text-[20px]">
+          <button className="bg-[#D0A038] text-white w-[155px] h-[37px] pb-1 rounded-full text-[20px] hover:bg-[#102044] hover:text-white">
             {box.btn} {/* Dynamic button text */}
           </button>
         </div>

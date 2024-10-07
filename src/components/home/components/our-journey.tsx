@@ -1,9 +1,9 @@
 export const OurJourney : React.FC = () =>{
     return (
 
-        <div className="bg-[#102044] w-full h-[280px]">
+        <div className="bg-[#102044] w-full h-[280px] px-4 mt-9">
             <div className="flex flex-col gap-3 justify-center items-center">
-                <h1 className="text-[32px] font-semibold text-white leading-normal -tracking-tighter">Our Journey</h1>
+                <h1 className="text-[32px] font-semibold text-white leading-normal -tracking-tighter pt-2">Our Journey</h1>
                 <p className="text-[16px] text-center  text-white px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore totam pariatur aperiam vero  </p>
                 <div className="flex flex-row gap-2">
 

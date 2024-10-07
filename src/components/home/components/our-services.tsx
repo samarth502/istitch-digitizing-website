@@ -10,6 +10,7 @@ import five from "../../../assets/OurServicesPic/Mask group-3.png";
 import six from "../../../assets/OurServicesPic/Mask group-4.png";
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import icons
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export const OurServices: React.FC = () => {
   interface Services {
@@ -78,7 +79,7 @@ export const OurServices: React.FC = () => {
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: -435, // Adjust this value as needed
+        left: -395, // Adjust this value as needed
         behavior: "smooth",
       });
     }
@@ -87,7 +88,7 @@ export const OurServices: React.FC = () => {
   const scrollRight = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: 435, // Adjust this value as needed
+        left: 395, // Adjust this value as needed
         behavior: "smooth",
       });
     }
@@ -98,12 +99,14 @@ export const OurServices: React.FC = () => {
       <h1 className="text-4xl font-semibold py-6 text-center">Our Services</h1>
 
       {/* Left Scroll Button */}
-      <button
+      <div
         onClick={scrollLeft}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-gray-200 rounded-full shadow-lg "
+        className="absolute left-1 top-[55%] transform -translate-y-1/2   bg-white rounded-full  w-[21px] h-[42px] flex justify-center items-center"
       >
-        <FaChevronLeft className=" " />
-      </button>
+        <span>
+        <MdOutlineKeyboardArrowLeft className=""size={30}/>
+        </span>
+      </div>
 
       {/* Scrollable Container */}
       <div
@@ -126,12 +129,15 @@ export const OurServices: React.FC = () => {
       </div>
 
       {/* Right Scroll Button */}
-      <button
+      <div
         onClick={scrollRight}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-gray-200 rounded-full shadow-lg"
+        className="absolute right-1 top-[55%] transform -translate-y-1/2 z-10  bg-white rounded-full shadow-lg w-[21px] h-[42px] flex justify-center items-center"
       >
-        <FaChevronRight />
-      </button>
+        <span>
+         <MdOutlineKeyboardArrowRight size={30} />
+         </span>
+
+      </div>
     </div>
   );
 };
@@ -150,15 +156,25 @@ export const OurServicesItem: React.FC<OurServicesItemProps> = ({
   btn,
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center  ">
-      <div className="w-[332px] h-[460px] bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7  gap-2  rounded-3xl pt-8 ">
-        <div className="w-[88px] h-[88px]">
-          <img src={image} className="w-full h-full" alt="Our Services" />
+   <div className="flex flex-col justify-center items-center bg-[#F4F4F4]">
+      <div className="w-[320px] h-[460px] bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7 gap-2 hover:bg-gradient-to-b hover:from-customBlue1 hover:via-customBlue2 hover:to-customWhite rounded-3xl pt-8 group">
+        <div className="w-[88px] h-[88px] border-4 border-transparent transition-all duration-300 ease-in-out group-hover:border-yellow-500 group-hover:scale-105">
+          <img
+            src={image}
+            className="w-full h-full object-cover transition duration-300 ease-in-out group-hover:filter group-hover:brightness-200 group-hover:hue-rotate-60 group-hover:opacity-70"
+            alt="Our Services"
+          />
+          {/* Overlay for Yellow Tint */}
+          <div className="absolute top-0 left-0 w-full h-full bg-yellow-500 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-30 rounded-full" />
         </div>
-        <h2 className="text-[24px] font-extrabold text-[#000000]">{heading}</h2>
-        <p className="text-[16px] text-black text-justify">{paragraph}</p>
-        <div className="w-full h-full flex justify-end ">
-          <button className="bg-[#D0A038] text-white w-[140px] h-[40px] rounded-full text-[20px]  ">
+        <h2 className="text-[24px] font-extrabold text-[#000000] group-hover:text-white">
+          {heading}
+        </h2>
+        <p className="text-[16px] text-black text-justify group-hover:text-white">
+          {paragraph}
+        </p>
+        <div className="w-full h-full flex justify-end">
+          <button className="bg-[#D0A038] text-white w-[140px] h-[40px] rounded-full text-[20px] hover:bg-[#102044] hover:text-white">
             {btn}
           </button>
         </div>
