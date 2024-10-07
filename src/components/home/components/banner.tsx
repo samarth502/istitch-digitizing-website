@@ -20,7 +20,7 @@ export const Banner: React.FC = () => {
           voluptas modi saepe ex at repreh Lorem ipsum dolor sit., eveniet,
           provident nulla{" "}
         </p>
-        <button className="bg-[#D0A038] text-white px-3  w-[155px] h-[37px] text-[20px] font-semibold rounded-full text-center">
+        <button className="bg-[#D0A038] text-white px-3  w-[155px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white">
           Get Started
         </button>
       </div>
