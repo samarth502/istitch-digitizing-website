@@ -19,7 +19,7 @@ export const MainHeader: React.FC = () => {
         </Link>
 
         {/* Desktop Navbar */}
-        <nav className="hidden lg:flex gap-6 items-center text-white text-lg ">
+        <nav className="hidden lg:flex gap-10 items-center text-white text-lg ">
           <div className="relative">
             <span
               onClick={() => setIsServicesOpen(!isServicesOpen)}
@@ -42,8 +42,7 @@ export const MainHeader: React.FC = () => {
           <a href="/pricing" className="text-[16px]">PRICING</a>
           <a href="#" className="text-[16px]">PORTFOLIO</a>
           <a href="#" className="text-[16px]">BLOGS</a>
-          <a href="#" className="text-[16px]">ABOUT US</a>
-          <a href="#" className="text-[16px]">CONTACT US</a>
+       
         </nav>
 
         {/* Get started */}
@@ -97,8 +96,7 @@ export const MainHeader: React.FC = () => {
               <li><a href="/pricing">PRICING</a></li>
               <li><a href="#">PORTFOLIO</a></li>
               <li><a href="#">BLOGS</a></li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">CONTACT US</a></li>
+           
             </ul>
           </div>
         </div>

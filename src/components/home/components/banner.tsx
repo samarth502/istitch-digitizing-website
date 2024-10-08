@@ -2,7 +2,7 @@ import React from "react";
 
 export const Banner: React.FC = () => {
   return (
-    <div className=" xl:pl-20  pt-6 bg-[rgb(244,244,244)] flex justify-between items-center lg:flex-row flex-col  w-full ;
+    <div className=" xl:pl-20  pt-6 bg-[rgb(244,244,244)] flex justify-between items-center lg:flex-row flex-col  w-full 
   ">
 
       <div className="flex flex-col  lg:gap-10 gap-5  xl:w-[60%] w-full px-4">

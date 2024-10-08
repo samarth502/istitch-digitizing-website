@@ -9,7 +9,7 @@ export const Featue: React.FC = () => {
     <>
       <div className=" bg-[#F4F4F4]  m-auto">
         <h1 className="text-center font-semibold text-4xl py-10">Features</h1>
-      <div className="flex md:flex-row flex-col justify-between items-center md:px-20 ">
+      <div className="flex md:flex-row flex-col justify-between items-center lg:px-24 md:px-12 ">
         <div className="flex flex-row gap-5 ">
           <div className="flex flex-col gap-3">
             <img src={one} className=" w-[40px] h-[40px]" alt="" />
