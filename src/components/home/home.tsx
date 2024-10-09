@@ -1,29 +1,27 @@
-import React from "react"
-import { Banner } from "./components/banner"
-import { OurServices } from "./components/our-services"
-import { Featue } from "./components/fetaure"
-import { OurDesign } from "./components/our-design"
-import Pricing from "./components/priceing"
-import { OurJourney } from "./components/our-journey"
-import OurClient from "./components/our-clients"
-import NoName from "./components/no-name"
-import { WhyChooseUs } from "./components/why-choose-us"
+import React from 'react';
 
-export const Home:React.FC = () =>{
+import NoName from './components/no-name';
+import OurClient from './components/our-clients';
+import Pricing from './components/pricing';
+import { Banner } from './components/banner';
+import { Feature } from './components/feature';
+import { OurDesign } from './components/our-design';
+import { OurJourney } from './components/our-journey';
+import { OurServices } from './components/service';
+import { WhyChooseUs } from './components/why-choose-us';
 
-    return (
-       <>
-       <Banner/>
-       <OurServices/>
-       <Featue/>
-       <WhyChooseUs/>
-       <OurDesign/>
-       <OurClient/>
-       <Pricing/>
-       <OurJourney/>
-       <NoName/>
-       
-       </>
-    )   
-
-}
+export const Home: React.FC = () => {
+  return (
+    <>
+      <Banner />
+      <OurServices />
+      <Feature />
+      <WhyChooseUs />
+      <OurDesign />
+      <OurClient />
+      <Pricing />
+      <OurJourney />
+      <NoName />
+    </>
+  );
+};
