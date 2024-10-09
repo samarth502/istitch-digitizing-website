@@ -56,7 +56,7 @@ export const WhyChooseUs: React.FC = () => {
         {boxesData.map((box) => (
           <div
             key={box.id}
-            className={`transition-all duration-300 ease-in-out p-2 bg-[#102044] rounded-xl flex flex-col gap-4 relative ${expandedBoxId === box.id ? 'h-[450px]' : 'h-[270px] xl:h-[300px] lg:h-[350px] md:h-[300px]'}`}
+            className={`transition-all duration-300 ease-in-out p-2 bg-[#102044] rounded-xl flex flex-col gap-4 relative ${expandedBoxId === box.id ? 'h-[400px]  bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite' : 'h-[270px] xl:h-[300px] lg:h-[350px] md:h-[300px]'}`}
             onClick={() => toggleBox(box.id)}
           >
             <h2 className="text-white text-[19px] md:text-[32px] text-center">{box.heading}</h2>
@@ -70,7 +70,7 @@ export const WhyChooseUs: React.FC = () => {
             )}
             
             <div className='flex flex-row justify-end items-center '>
-              <img src={box.imageUrl} alt={box.heading} className={`w-full h-36 md:w-[170px] xl:h-[90px] md:h-full lg:h-full object-cover mb-2 transition-all duration-300 ease-in-out ${expandedBoxId === box.id ? 'mt-4' : 'mt-0'}`} />
+              <img src={box.imageUrl} alt={box.heading} className={`w-full h-36 md:w-[170px] xl:h-[90px] md:h-full lg:h-full object-cover mb-2 transition-all duration-300 ease-in-out ${expandedBoxId === box.id ? 'mt-3 xl:w-[250px] xl:h-[200px] xl:-mt-14 ' : 'mt-0'}`} />
             </div>
           </div>
         ))}
