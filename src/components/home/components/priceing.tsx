@@ -37,8 +37,8 @@ const Pricing: React.FC = () => {
 
   return (
     <>
-      <div className="bg-[#F4F4F4] relative">
-        <h1 className="text-3xl text-center font-semibold pt-6 pb-3">Pricing</h1>
+      <div className="bg-[#F4F4F4] relative pb-12">
+        <h1 className="text-3xl text-center font-semibold pt-10 ">Pricing</h1>
 
 
         {/* Scrollable container */}

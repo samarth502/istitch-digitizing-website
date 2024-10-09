@@ -47,8 +47,8 @@ export const MainHeader: React.FC = () => {
 
         {/* Get started */}
 
-        <button className="bg-[#D0A038] text-white px-3  w-[155px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white hover:border-solid hover:border-2 hoverL:border-indigo-600 hidden lg:block">
-          Get Started
+        <button className="bg-[#D0A038] text-white   w-[164px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white hover:border-solid hover:border-2 hoverL:border-indigo-600 hidden lg:block cursor-pointer">
+          Get Free Quote
         </button>
 
         {/* Mobile Icons */}
@@ -71,7 +71,7 @@ export const MainHeader: React.FC = () => {
         <div
           className={`z-10 fixed inset-0 mt-[56px] bg-white text-black transition-all duration-300 ease-in-out transform ${
             isMobileMenuOpen
-              ? "translate-y-0 opacity-100 visible h-[50vh] top-20"
+              ? "translate-y-0 opacity-100 visible h-[35vh] top-20"
               : "-translate-y-full opacity-0 invisible h-0"
           }`}
         >

@@ -50,22 +50,27 @@ export const WhyChooseUs: React.FC = () => {
   };
 
   return (
-    <section className='bg-[#F4F4F4] xs:mx-2 lg:mx-0'>
+    <section className='bg-[#F4F4F4] xs:mx-5 lg:mx-0'>
       <h1 className="text-3xl text-center font-extrabold pt-8 pb-5">Why Choose Us?</h1>
       <div className="grid grid-cols-2 gap-4 pt-5 lg:w-[85%] xl:w-[60%] lg:m-auto gap-x-8">
         {boxesData.map((box) => (
           <div
             key={box.id}
-            className={`transition-all duration-300 ease-in-out p-2 bg-[#102044] rounded-xl flex flex-col gap-4 relative ${expandedBoxId === box.id ? 'h-[450px]' : 'h-[300px]'}`}
+            className={`transition-all duration-300 ease-in-out p-2 bg-[#102044] rounded-xl flex flex-col gap-4 relative ${expandedBoxId === box.id ? 'h-[450px]' : 'h-[270px] xl:h-[300px] lg:h-[350px] md:h-[300px]'}`}
             onClick={() => toggleBox(box.id)}
           >
             <h2 className="text-white text-[19px] md:text-[32px] text-center">{box.heading}</h2>
             <p className="text-white text-[12px] md:text-[18px] md:py-2 lg:py-0">{box.paragraph1}</p>
-            {expandedBoxId === box.id && (
+            {/* {expandedBoxId === box.id && ( */}
               <p className="text-white text-[12px] md:text-[18px] xs:hidden lg:block">{box.paragraph2}</p>
+            {/* )} */}
+
+            {expandedBoxId === box.id && (
+            <p className="text-white text-[12px] md:text-[18px] xs:hidden lg:block">{box.paragraph2}</p>
             )}
-            <div className='flex flex-row justify-end items-center'>
-              <img src={box.imageUrl} alt={box.heading} className={`w-full h-32 md:w-[180px] md:h-[120px] object-cover mb-2 transition-all duration-300 ease-in-out ${expandedBoxId === box.id ? 'mt-4' : 'mt-0'}`} />
+            
+            <div className='flex flex-row justify-end items-center '>
+              <img src={box.imageUrl} alt={box.heading} className={`w-full h-36 md:w-[170px] xl:h-[90px] md:h-full lg:h-full object-cover mb-2 transition-all duration-300 ease-in-out ${expandedBoxId === box.id ? 'mt-4' : 'mt-0'}`} />
             </div>
           </div>
         ))}

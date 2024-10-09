@@ -45,11 +45,11 @@ const OurClient: React.FC = () => {
   ];
 
   return (
-    <div className='bg-[#F4F4F4] overflow-hidden'>
+    <div className='bg-[#F4F4F4] overflow-hidden py-24'>
       <h1 className='text-center py-6 text-[32px] font-semibold'>
         Hear From Our Clients
       </h1>
-      <div className="relative bg-white rounded-lg py-6 w-96 xl:w-[85%] md:w-[96%] m-auto pb-10 ">
+      <div className="relative bg-white rounded-lg py-6 w-96 xl:w-[88%] md:w-[92%] m-auto pb-10 ">
         <Slider {...sliderSettings}>
           {clientData.map((client) => (
             <div key={client.id}>

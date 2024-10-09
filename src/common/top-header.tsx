@@ -17,7 +17,7 @@ export const TopHeader: React.FC = () => {
         <div className="flex flex-row gap-2 justify-center items-center">
           {/* mail */}
 
-          <div className="md:flex flex-row justify-center items-center gap-2 hidden">
+          <div className="md:flex flex-row justify-center items-center gap-1 hidden">
   
             <div className="w-[30px] h-[30px] text-sm bg-[#D0A038] rounded-full  flex justify-center items-center">
               <CiMail 
@@ -29,7 +29,7 @@ export const TopHeader: React.FC = () => {
 
             <div>
             <p className="font-poppins text-sm font-semibold ">
-              {'+91 7209563603'}
+              {'info@gmail.com'}
             </p>
           </div>
 
@@ -39,7 +39,7 @@ export const TopHeader: React.FC = () => {
 
 
           {/* Phone No */}
-          <div className=" flex flex-row justify-center items-center">
+          <div className=" flex flex-row justify-center items-center gap-1">
             <div className="w-[30px] h-[30px] text-sm bg-[#D0A038] rounded-full  flex justify-center items-center">
               <FiPhone
                 className="w-[20px] h-[20px] duration-500 transition-transform hover:-translate-y-1"

@@ -118,7 +118,7 @@ export const OurServices: React.FC = () => {
       {/* Scrollable Container */}
       <div
         ref={scrollContainerRef}
-        className="flex overflow-x-auto lg:grid lg:grid-cols-3 gap-5 px-5 scrollbar-hide"
+        className="flex overflow-x-auto lg:grid lg:grid-cols-3 gap-5 px-5 scrollbar-hide "
       >
         {data.map((service) => (
           <OurServicesItem
@@ -161,10 +161,10 @@ export const OurServicesItem: React.FC<OurServicesItemProps> = ({
   const [currentImage, setCurrentImage] = useState(image); // State to manage the current image
 
   return (
-    <div className="flex flex-col items-center min-w-[332px] bg-[#F4F4F4] scrollbar-hide">
+    <div className="flex flex-col items-center  bg-[#F4F4F4] scrollbar-hide">
       {/* Parent div with hover gradient background */}
       <div
-        className="xl:w-[332px] md:h-[400px] xl:h-[400px] lg:w-[290px] lg:h-[430px] overflow-y-hidden bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7 gap-1 rounded-3xl pt-8 group hover:bg-gradient-to-b hover:from-[#2850AA] hover:via-[#2850AA] hover:to-[#102044]"
+        className=" xs:min-w-[310px] customOne:min-w-[350px] customTwo:min-w-[375px] customThree:min-w-[390px] customFour:min-w-[320px] customOne:bg-black xl:w-[332px] md:min-w-[357px] customFive:min-w-[375px] md:h-[350px]  xl:min-w-[400px] lg:min-w-full lg:min-h-[43px] overflow-y-hidden bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7 gap-1 rounded-3xl pt-8 group hover:bg-gradient-to-b hover:from-[#2850AA] hover:via-[#2850AA] hover:to-[#102044] pb-5 "
         onMouseEnter={() => setCurrentImage(hoverImage)} // Change image on hover
         onMouseLeave={() => setCurrentImage(image)} // Reset image on mouse leave
       >
@@ -178,7 +178,7 @@ export const OurServicesItem: React.FC<OurServicesItemProps> = ({
         </div>
 
         {/* Heading */}
-        <h2 className="text-[24px] lg:text-[21px] font-extrabold text-[#000000] group-hover:text-white">
+        <h2 className="text-[24px] lg:text-[21px] font-extrabold text-[#000000] group-hover:text-white xs:text-lg">
           {heading}
         </h2>
 

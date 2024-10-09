@@ -33,6 +33,15 @@ export default {
 
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
+      customOne:"390px",
+      customTwo:"412px",
+      customThree:"430px",
+      customFour:"360px",
+      customFive:"820px",
+
+
+
+
     },  
   },
   plugins: [

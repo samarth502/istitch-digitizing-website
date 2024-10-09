@@ -22,8 +22,8 @@ export const Banner: React.FC = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
           voluptas modi saepe ex at repreh Lorem ipsum dolor sit., eveniet,
           provident  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia corrupti voluptatibus illo, provident minus voluptatem deleniti soluta pariatur dignissimos eos!       </p>
-        <button className="bg-[#D0A038] text-white px-3  w-[155px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white">
-          Get Started
+          <button className="bg-[#D0A038] text-white   w-[180px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white hover:border-solid hover:border-2 hoverL:border-indigo-600 hidden lg:block cursor-pointer ">
+          Get Free Quote
         </button>
       </div>
 

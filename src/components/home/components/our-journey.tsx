@@ -1,8 +1,8 @@
 export const OurJourney : React.FC = () =>{
     return (
 
-        <div className="bg-[#102044] w-full h-[280px] px-4 mt-9">
-            <div className="flex flex-col gap-3 justify-center items-center md:pt-12">
+        <div className="bg-[#102044] w-full h-[280px] px-4 flex justify-center items-center">
+            <div className="flex flex-col gap-3 justify-center items-center ">
                 <h1 className="text-[32px] font-semibold text-white leading-normal -tracking-tighter pt-2">Our Journey</h1>
                 <p className="text-[16px] text-center  text-white px-1 md:hidden xs:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore totam pariatur aperiam vero  </p>
                 <div className="flex flex-row xl:gap-44 md:gap-14 lg:gap-24">

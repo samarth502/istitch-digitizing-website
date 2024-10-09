@@ -12,21 +12,22 @@ export const Featue: React.FC = () => {
       <div className="flex md:flex-row flex-col justify-between items-center lg:px-24 md:px-12 ">
         <div className="flex flex-row gap-5 ">
           <div className="flex flex-col gap-3">
-            <img src={one} className=" w-[40px] h-[40px]" alt="" />
-            <img src={two} className=" w-[40px] h-[40px]" alt="" />
             <img src={three} className=" w-[40px] h-[40px]" alt="" />
+            <img src={two} className=" w-[40px] h-[40px]" alt="" />
+            <img src={one} className=" w-[40px] h-[40px]" alt="" />
             <img src={four} className=" w-[40px] h-[40px]" alt="" />
           </div>
 
           <div className="flex flex-col gap-5">
             <h2 className="text-[22px] font-semibold text-black">
-              Afte Sales Services
-            </h2>
-            <h2 className="text-[22px] font-semibold text-black">
-              Robust Quality{" "}
-            </h2>
-            <h2 className="text-[22px] font-semibold text-black">
               Experienced Artists
+            </h2>
+            <h2 className="text-[22px] font-semibold text-black">
+              Robust Quality Assurance{" "}
+            </h2>
+            <h2 className="text-[22px] font-semibold text-black">
+            Afte Sales Services
+
             </h2>
             <h2 className="text-[22px] font-semibold text-black">
               Fast Turnaound

@@ -2,7 +2,7 @@ import React from 'react';
 
 const NoName: React.FC = () => {
   return (
-    <div className="flex flex-row gap-5 md:gap-24 p-8 lg:w-[90%] m-auto ">
+    <div className="flex flex-row gap-5 md:gap-24 p-8 lg:w-[89%] m-auto  ">
       {Array(4)
         .fill(0)
         .map((_, index) => (
