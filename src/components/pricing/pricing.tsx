@@ -1,15 +1,15 @@
-import { BulkOrder } from "./components/bulk-order"
-import Highlights from "./components/key-highlight"
-import OurClient from "./components/our-client"
-import { PricingItem } from "./components/pricing-item"
+import { BulkOrder } from './components/bulk-order';
+import { Highlight } from './components/highlight';
+import { PricingItem } from './components/pricing-item';
+import { HearFromClient } from '../../common/hear-from-client';
 
-export const Pricing:React.FC = () =>{
-    return (
-        <>
-          <PricingItem/>
-          <BulkOrder/>
-          <Highlights/>
-          <OurClient/>
-        </>
-    )
-}
+export const Pricing: React.FC = () => {
+  return (
+    <>
+      <PricingItem />
+      <BulkOrder />
+      <Highlight />
+      <HearFromClient />
+    </>
+  );
+};

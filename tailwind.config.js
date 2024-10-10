@@ -10,10 +10,11 @@ export default {
 
         customBlue1: '#102044',
         customBlue2: '#2850AA',
-        customWhite: '#E5E1CC',
 
         headerFooter: '#1F325C',
         goldenSand: '#D0A038',
+        goldenGlow: '#EBC764',
+        softSand: '#E5E1CC',
         midnightBlue: '#102044',
         lightGray: '#F4F4F4'
       }

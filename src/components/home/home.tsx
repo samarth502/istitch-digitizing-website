@@ -1,7 +1,6 @@
 import React from 'react';
 
 import NoName from './components/no-name';
-import OurClient from './components/our-clients';
 import Pricing from './components/pricing';
 import { Banner } from './components/banner';
 import { Feature } from './components/feature';
@@ -9,6 +8,7 @@ import { OurDesign } from './components/our-design';
 import { OurJourney } from './components/our-journey';
 import { OurServices } from './components/service';
 import { WhyChooseUs } from './components/why-choose-us';
+import { HearFromClient } from '../../common/hear-from-client';
 
 export const Home: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ export const Home: React.FC = () => {
       <Feature />
       <WhyChooseUs />
       <OurDesign />
-      <OurClient />
+      <HearFromClient />
       <Pricing />
       <OurJourney />
       <NoName />
