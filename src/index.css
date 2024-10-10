@@ -19,3 +19,15 @@
 .slick-dots li button {
     background-color: black; /* Inactive dot color */
 }
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scroll-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
