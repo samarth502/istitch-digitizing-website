@@ -4,8 +4,8 @@ import NoName from './components/no-name';
 import Pricing from './components/pricing';
 import { Banner } from './components/banner';
 import { Feature } from './components/feature';
-import { OurDesign } from './components/our-design';
-import { OurJourney } from './components/our-journey';
+import { Design } from './components/design';
+import { Journey } from './components/journey';
 import { OurServices } from './components/service';
 import { WhyChooseUs } from './components/why-choose-us';
 import { HearFromClient } from '../../common/hear-from-client';
@@ -17,10 +17,10 @@ export const Home: React.FC = () => {
       <OurServices />
       <Feature />
       <WhyChooseUs />
-      <OurDesign />
+      <Design />
       <HearFromClient />
       <Pricing />
-      <OurJourney />
+      <Journey />
       <NoName />
     </>
   );
