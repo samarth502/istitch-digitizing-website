@@ -44,7 +44,7 @@ export const OurDesign: React.FC = () => {
   };
 
   return (
-    <div className="relative bg-[#F4F4F4] py-10">
+    <div className="relative bg-[#F4F4F4] py-10 px-4 md:px-10 xl:px-0">
       <h1 className="text-4xl pt-9 pb-4 font-semibold text-center">Our Design</h1>
       <h2 className="text-xl my-5 font-semibold text-center absolute  xl:right-44 xl:top-20 md:right-7 md:top-20 lg:right-24 lg:top-[80px] xs:top-24 xs:right-5">View All</h2>
 

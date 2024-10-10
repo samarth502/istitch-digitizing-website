@@ -20,7 +20,7 @@ export const ServiceItem: React.FC<IProps> = ({
   return (
     <div className="flex flex-col items-center">
       <div
-        className="xs:min-w-[310px] bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7 gap-5 rounded-3xl pt-8 group hover:bg-gradient-to-b hover:from-[#2850AA] hover:via-[#2850AA] hover:to-[#102044] pb-5 transition-all duration-300"
+        className="xs:min-w-[255px] custom412:min-w-[324px] custom375:min-w-[287px] custom414:min-w-[326px] custom390:min-w-[302px] custom430:min-w-[342px] custom360:min-w-[272px] lg:min-w-[1px]   custom540:min-w-[452px] md:min-w-[100px]   overflow-hidden bg-gradient-to-b from-customGold1 via-customGold2 to-customWhite flex flex-col justify-center items-center px-7 gap-5 rounded-3xl pt-8 group hover:bg-gradient-to-b hover:from-[#2850AA] hover:via-[#2850AA] hover:to-[#102044] pb-5 transition-all duration-300"
         onMouseEnter={() => setCurrentImage(hoverImage)}
         onMouseLeave={() => setCurrentImage(image)}
       >
@@ -31,7 +31,7 @@ export const ServiceItem: React.FC<IProps> = ({
             alt="Our Services"
           />
         </div>
-        <h2 className="text-[24px] font-extrabold text-[#000000] group-hover:text-white">
+        <h2 className="md:text-[24px] text-lg font-extrabold text-[#000000] group-hover:text-white lg:text-xl custom540:text-[28px] ">
           {heading}
         </h2>
         <p className="text-[16px] text-black text-justify group-hover:text-white">

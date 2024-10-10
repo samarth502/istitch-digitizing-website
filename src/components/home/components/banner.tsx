@@ -5,7 +5,7 @@ import DesignWithSewing from '../../../assets/home/banner/designWithSewing.png';
 export const Banner: React.FC = () => {
   return (
     <div className="bg-lightGray px-4 md:px-10 xl:px-24 pt-6 flex justify-between items-center lg:flex-row flex-col w-full">
-      <div className="flex flex-col md:gap-10 gap-5 md:w-[60%] w-full">
+      <div className="flex flex-col md:gap-10 gap-5 xl:w-[60%] w-full">
         <div className="w-full">
           <h1 className="font-bold text-[32px]">
             Welcome to{' '}
@@ -31,8 +31,8 @@ export const Banner: React.FC = () => {
         </button>
       </div>
 
-      <div className="mt-3 md:w-[38%] md:h-[400px] w-full h-full ">
-        <img className="w-full h-full" src={DesignWithSewing} alt="" />
+      <div className="mt-3 xl:w-[38%] xl:h-[400px] w-full h-full ">
+        <img className="w-full h-full object-contain" src={DesignWithSewing} alt="" />
       </div>
     </div>
   );

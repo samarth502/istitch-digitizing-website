@@ -70,7 +70,7 @@ export const PricingItem: React.FC = () => {
               <p className="text-[17px] text-gray-800">{item.additional}</p>
               <p className="text-[17px] text-gray-800">{item.moreDetails}</p>
               <div className="flex flex-row justify-center mt-4">
-                <button className="bg-goldenSand text-white w-[140px] h-[40px] rounded-full text-[18px] font-medium">
+                <button className="bg-goldenSand text-white w-[140px] h-[40px] rounded-full text-[18px] font-medium hover:bg-[#102044]">
                   Order Now
                 </button>
               </div>

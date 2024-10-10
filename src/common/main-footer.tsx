@@ -9,7 +9,7 @@ import logo from '../assets/CompanyLogo/istitch-logo.png';
 export const MainFooter: React.FC = () => {
   return (
     <footer className="bg-headerFooter py-11">
-      <div className="flex flex-col md:flex-row justify-between px-4 md:px-10 xl:px-24">
+      <div className="flex flex-col md:flex-row justify-between px-4 md:px-10 xl:px-[120px]">
         <div className="bg-white h-[80px] w-[168px] mb-6 flex justify-center items-center">
           <img src={logo} alt="logo" className="" />
         </div>

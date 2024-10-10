@@ -37,11 +37,16 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-      customOne: '390px',
-      customTwo: '412px',
-      customThree: '430px',
-      customFour: '360px',
-      customFive: '820px'
+      custom390: '390px',
+      custom375: '375px',
+      custom412: '412px', 
+      custom414: '414px', 
+      custom540: '540px', 
+      custom430: '430px',
+      custom360: '360px',
+      custom820: '820px',
+      custom768: '768px'
+
     }
   },
   plugins: [require('tailwind-scrollbar-hide')]
