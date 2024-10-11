@@ -39,7 +39,7 @@ const OurServices: React.FC = () => {
       <h1 className="text-grayish font-lato text-lg ">{'Our Services'}</h1>
       <div className="cursor-pointer font-poppins text-sm flex flex-col gap-1 mt-4">
         <span className=" hover:text-redDarkColor md:text-sm">
-          <a href="#">{'Embroidery Digitizing'}</a>
+          <a href="/our-services/embroidery">{'Embroidery Digitizing'}</a>
         </span>
         <span className="hover:text-redDarkColor md:text-sm">
           <a href="#">{' Vector Art Digitizing'}</a>

@@ -31,7 +31,10 @@ export const MainHeader: React.FC = () => {
             {isServicesOpen && (
               <ul className="absolute top-8 left-0 rounded shadow-lg p-4 space-y-2 w-[220%] bg-headerFooter text-white z-50">
                 <li>
-                  <a href="#" className="text-[14px] hover:text-goldenSand">
+                  <a
+                    href="/our-services/embroidery"
+                    className="text-[16px] hover:text-goldenSand"
+                  >
                     Embroidery Digitizing
                   </a>
                 </li>
@@ -119,7 +122,7 @@ export const MainHeader: React.FC = () => {
               {isServicesOpen && (
                 <ul className="ml-4 text-lg space-y-2">
                   <li>
-                    <a href="#">Embroidery Digitizing</a>
+                    <a href="/our-services/embroidery">Embroidery Digitizing</a>
                   </li>
                   <li>
                     <a href="#">Vector Art Digitizing</a>

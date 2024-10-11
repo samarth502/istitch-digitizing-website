@@ -6,6 +6,7 @@ import { Home } from './components/home/home';
 import { Pricing } from './components/pricing/pricing';
 import { ContactUs } from './components/contact-us/contact-us';
 import { Portfolio } from './components/portfolio/portfolio';
+import { Embroidery } from './components/our-services/embroidery/embroidery';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MainHeader />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/our-services/embroidery" element={<Embroidery />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact-us" element={<ContactUs />} />
