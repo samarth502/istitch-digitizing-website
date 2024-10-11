@@ -4,15 +4,19 @@ import { MainFooter } from './common/main-footer';
 import { MainHeader } from './common/main-header';
 import { Home } from './components/home/home';
 import { Pricing } from './components/pricing/pricing';
+import { ContactUs } from './components/contact-us/contact-us';
+import { Portfolio } from './components/portfolio/portfolio';
 
 function App() {
   return (
     <Router>
       <TopHeader />
-      <MainHeader/>
+      <MainHeader />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path='/pricing' element={<Pricing/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <MainFooter />
     </Router>

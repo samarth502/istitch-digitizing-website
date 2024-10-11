@@ -26,13 +26,17 @@ export const Banner: React.FC = () => {
           Officia corrupti voluptatibus illo, provident minus voluptatem
           deleniti soluta pariatur dignissimos eos!{' '}
         </p>
-        <button className="bg-goldenSand text-white   w-[180px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white hover:border-solid hover:border-2 hoverL:border-indigo-600 hidden lg:block cursor-pointer ">
-          Get Free Quote
+        <button className="bg-goldenSand text-white   w-[180px] h-[37px] text-[20px] font-semibold rounded-full text-center hover:bg-[#102044] hover:text-white hover:border-solid hover:border-2 hoverL:border-indigo-600 hidden lg:block cursor-pointer">
+          <a href="/contact-us">Get Free Quote</a>
         </button>
       </div>
 
       <div className="mt-3 xl:w-[38%] xl:h-[400px] w-full h-full ">
-        <img className="w-full h-full object-contain" src={DesignWithSewing} alt="" />
+        <img
+          className="w-full h-full object-contain"
+          src={DesignWithSewing}
+          alt=""
+        />
       </div>
     </div>
   );

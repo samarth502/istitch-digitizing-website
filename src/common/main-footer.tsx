@@ -70,8 +70,12 @@ const QuickLinks: React.FC = () => {
       </h1>
       <div className="cursor-pointer font-poppins text-sm flex flex-col gap-1 mt-4">
         <span className=" hover:text-redDarkColor">{'Blogs'}</span>
-        <span className=" hover:text-redDarkColor mt-2">{'Pricing'}</span>
-        <span className=" hover:text-redDarkColor mt-2">{'Portfolio'}</span>
+        <span className=" hover:text-redDarkColor mt-2">
+          <a href="/pricing">{'Pricing'}</a>
+        </span>
+        <span className=" hover:text-redDarkColor mt-2">
+          <a href="/portfolio">{'Portfolio'}</a>
+        </span>
       </div>
     </div>
   );
