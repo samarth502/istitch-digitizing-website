@@ -69,7 +69,7 @@ export const MainHeader: React.FC = () => {
           <a href="/pricing" className="text-[16px] hover:text-goldenSand">
             PRICING
           </a>
-          <a href="portfolio" className="text-[16px] hover:text-goldenSand">
+          <a href="/portfolio" className="text-[16px] hover:text-goldenSand">
             PORTFOLIO
           </a>
           <a href="#" className="text-[16px] hover:text-goldenSand">
