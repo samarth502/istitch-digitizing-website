@@ -26,6 +26,7 @@ export const FileFormat: React.FC = () => {
             src={FileFormatItem}
             alt="File Format Example"
             className="w-full max-w-xs lg:max-w-full h-auto object-cover"
+            
           />
         </div>
       </div>

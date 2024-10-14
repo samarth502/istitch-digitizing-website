@@ -6,7 +6,7 @@ export const Banner: React.FC = () => {
       {/* Title */}
       <h2 className="text-2xl md:text-4xl font-bold text-center lg:text-left text-black mb-6">
         Embroidery Digitizing
-      </h2>
+      </h2> 
 
       {/* Content Section */}
       <div className="flex flex-col lg:flex-row items-center lg:items-start">
@@ -24,6 +24,7 @@ export const Banner: React.FC = () => {
             Maecenas in lectus porta mi posuere pulvinar a vel dui. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.
           </p>
+          
           <p className="text-md md:text-lg leading-relaxed text-center lg:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             tincidunt velit nec turpis accumsan, sit amet ornare massa commodo.
