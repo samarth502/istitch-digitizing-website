@@ -17,7 +17,7 @@ export const MainHeader: React.FC = () => {
             <img src={logo} alt="logo" />
           </div>
         </Link>
-
+    
         {/* Desktop Navbar */}
         <nav className="hidden lg:flex gap-10 items-center text-white text-lg relative z-50">
           <div className="relative">
