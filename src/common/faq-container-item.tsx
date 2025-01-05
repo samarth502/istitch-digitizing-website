@@ -9,6 +9,7 @@ interface FaqQue {
 }
 
 
+
 export const Faq: React.FC<{faqData:FaqQue[]}> = ({faqData}) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -47,3 +48,6 @@ export const Faq: React.FC<{faqData:FaqQue[]}> = ({faqData}) => {
     </div>
   );
 };
+
+
+// hhhii

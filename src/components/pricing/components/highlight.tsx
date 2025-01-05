@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ExpertTeam from '../../../assets/pricing/expertTeam.png';
+import ExpertTeam from '../../../assets/Pricing/expertTeam.png'
 import FastTurnaround from '../../../assets/pricing/fastTurnAround.png';
 import PaymentFlexibility from '../../../assets/pricing/paymentFlexibility.png';
 import CustomerSupport from '../../../assets/pricing/customerSupport.png';
