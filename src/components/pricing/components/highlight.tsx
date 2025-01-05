@@ -1,10 +1,10 @@
 import React from 'react';
 
 import ExpertTeam from '../../../assets/Pricing/expertTeam.png'
-import FastTurnaround from '../../../assets/pricing/fastTurnAround.png';
-import PaymentFlexibility from '../../../assets/pricing/paymentFlexibility.png';
-import CustomerSupport from '../../../assets/pricing/customerSupport.png';
-import KeyHighlights from '../../../assets/pricing/keyHighlights.png';
+import FastTurnaround from '../../../assets/Pricing/fastTurnaround.png'
+import PaymentFlexibility from '../../../assets/Pricing/paymentFlexibility.png';
+import CustomerSupport from '../../../assets/Pricing/customerSupport.png';
+import KeyHighlights from '../../../assets/Pricing/keyHighlights.png';
 
 const highlightsData = [
   {
