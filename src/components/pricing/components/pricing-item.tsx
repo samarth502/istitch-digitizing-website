@@ -1,4 +1,4 @@
-import UnionImage from '../../../assets/pricing/union.png';
+import UnionImage from '../../../assets/Pricing/Union.png';
 
 const pricingData = [
   {
